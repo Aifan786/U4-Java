@@ -1,0 +1,26 @@
+
+
+Ans: As Java uses the concept of String literal. Suppose there are 5 reference variables, all
+refer to one object "Masai". If one reference variable changes the value of the object, it
+will be affected by all the reference variables. That is why String objects are immutable
+in Java.
+
+String=> The string created using the String
+class is immutable.
+
+An object of String is read-only in
+nature.
+
+
+String Builder=> The string created using StringBuilder is
+mutable.
+
+An object of StringBuilder is dynamic in
+nature.
+
+Methods of a string
+1. charAt()
+2.length()
+3. tocompare()
+4.equals()
+5. uppercase()
