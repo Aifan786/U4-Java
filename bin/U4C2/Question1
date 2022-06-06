@@ -1,0 +1,17 @@
+
+IS-A relationship: Whenever one class inherits another class, it is called an IS-A relationship.
+
+HAS-A relationship: Whenever an instance of one class is used in another class, it is called HAS-A relationship.
+
+example: For example, if a class Bulb inherits another class Device, then we can say that Bulb is having is-a relationship 
+          with Device, which implies Bulb is a device.
+          
+
+Access modifier: The access modifiers in Java specifies the accessibility or scope of a field, method, constructor, or class.
+
+There are four types of Java access modifiers:
+
+1. Public - It can be access everywhere 
+2. Private - It can be access only inside the same class.
+3. default - It can be public inside the same package but act as private outside the package.
+3. Protected - It is similar to default.

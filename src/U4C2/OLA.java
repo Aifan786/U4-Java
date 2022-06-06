@@ -15,9 +15,9 @@ public class OLA {
 			return new HatchBack();
 		}
 		else {
-			
+			return new Sedan();
 		}
-		return new Sedan();
+		
 	}
 	
 	public int calculateBill(Car car) {
@@ -36,7 +36,7 @@ public class OLA {
 		Car myCar = ola.bookCar(numberOfPassenger, numberOfKMs);
 		int res = ola.calculateBill(myCar);
 		
-		System.out.println("The total fare amount is"+ res);
+		System.out.println("The total fare amount is: "+ res);
 	}
 }
 
